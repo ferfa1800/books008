@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 04, 2020 at 02:02 PM
+-- Generation Time: Mar 09, 2020 at 04:11 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -43,11 +43,10 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `title`, `price`, `typebooks_id`, `image`, `created_at`, `updated_at`) VALUES
-(1, 'การ์ตูน panda', '100.00', 13, 'NoPic.jpg', '2020-03-03 15:41:24', '2020-03-03 15:41:24'),
-(2, 'สามก๊ก', '1500.00', 13, 'NoPic.jpg', '2020-03-03 15:41:24', '2020-03-03 15:41:24'),
-(3, 'บัญชีเบื้องต้น', '500.00', 15, 'NoPic.jpg', '2020-03-03 15:44:14', '2020-03-03 15:44:14'),
-(4, 'dh', '120.00', 13, 'pjVvyBMnwR.jpg', '2020-03-04 07:42:35', '2020-03-04 07:42:35'),
-(5, 'อาหารไทย', '450.00', 14, 'zt3SIWKIoO.jpg', '2020-03-04 07:46:16', '2020-03-04 07:46:16');
+(15, 'อาหารไทย', '1500.00', 14, 'ioME1UX9Xc.jpg', '2020-03-09 14:32:18', '2020-03-09 14:32:18'),
+(16, 'คอมมือใหม่', '2000.00', 16, 'Kwq12d0mZ4.jpg', '2020-03-09 14:32:51', '2020-03-09 14:32:51'),
+(17, 'การบัญชีเบื้องต้น1', '800.00', 15, 'vQf5rZZxwI.jpg', '2020-03-09 14:34:14', '2020-03-09 14:34:14'),
+(18, 'การ์ตูน โดเรม่อน', '1500.00', 13, 'lyZ4HWPQEf.jpg', '2020-03-09 14:34:54', '2020-03-09 14:34:54');
 
 -- --------------------------------------------------------
 
@@ -175,7 +174,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `books`
 --
 ALTER TABLE `books`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `migrations`
